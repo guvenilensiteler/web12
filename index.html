@@ -336,7 +336,7 @@
                             <div class="text" style="font-family: 'Barlow'; letter-spacing: 1.5px; ">
                                 <span class="font-size-x-small" v-if="_.find(client.sites, ['site', site.site]).promo_code">Promo Code:</span>
 
-                                <span v-bind:style="{textTransform: (_.find(client.sites, ['site', site.site]).promo_code.toString().toLocaleLowerCase() == _.find(client.sites, ['site', site.site]).promo_code) ? 'lowercase' : 'uppercase'    ,    fontSize: (_.find(client.sites, ['site', site.site]).promo_code.toString().toLocaleLowerCase() == _.find(client.sites, ['site', site.site]).promo_code) ? '19px' : '16px'}">
+                                <span v-bind:style="{textTransform: (_.find(client.sites, ['site', site.site]).promo_code?.toLocaleLowerCase() == _.find(client.sites, ['site', site.site])?.promo_code) ? 'lowercase' : 'uppercase'    ,    fontSize: (_.find(client.sites, ['site', site.site]).promo_code?.toLocaleLowerCase() == _.find(client.sites, ['site', site.site])?.promo_code) ? '19px' : '16px'}">
                                     {{_.find(client.sites, ['site', site.site]).promo_code}}
                                 </span>
 
