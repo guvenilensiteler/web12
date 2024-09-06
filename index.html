@@ -173,6 +173,41 @@
     </svg>
 </div>
 <div id="app-v-page" :class="{ 'mobile' : is_mobile}" style="display: none;">
+    <header style="display: none">
+        <div class="container" v-if="!loading">
+            <a href="https://bit.ly/elisaxzbahis" target="_blank" class="ana-sponsor">
+                <div style="width: 100%; padding: 0px 10px;">
+                    <div style="font-weight: bolder;
+                                    font-size: 12px;
+                                    text-align: left;
+                                    padding-left: 6px;
+                                    color: gold;" class="text-shadow"
+                    >ANA SPONSOR</div>
+
+                    <div class="col">
+                        <div class="social" style="border: 2px solid #48effa; border-radius: 10px; padding: 2px 0px">
+                            <img src="zbahis.png" style="width: 115px; padding-left: 3px; float: left">
+                            <span style="font-size: 10px; padding: 0px 3px; float: right">"OGEDAY777" kodunu ilet DENEME BONUSU AL!</span>
+                            <div style="font-size: 16px;
+                                    background: #48effa;
+                                    text-align: center;
+                                    border-radius: 5px;
+                                    height: 25px;
+                                    font-weight: bold;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    padding: 0px 3px;
+                                    margin: 0px 3px;">
+                                ₺777
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </header>
+
     <!--
     <div class="row strip" v-if="!loading">
         <h1>
@@ -569,6 +604,25 @@
             },50)
         }
         */
+        function isMobile() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android/i.test(userAgent)) {
+                return true;
+            }
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return true;
+            }
+            return false;
+        }
+        if (isMobile()) {
+            is_element_load = setInterval(function(){
+                let e = document.querySelector('header');
+                if (e) {
+                    e.setAttribute('style','');
+                    clearInterval(is_element_load);
+                }
+            },50)
+        }
     });
 
 </script>
