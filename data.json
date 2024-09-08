@@ -75,6 +75,18 @@
         "promo_code": null,
         "promo_code_yok": "VEYA 100 FREE BET",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/elisaxzbahis",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "zbahis",
+        "sort": null,
+        "color": "#48effa",
+        "miktar": "₺777",
+        "promo_code": "ELISA777",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -187,6 +199,10 @@
           {
             "site": "galabet",
             "sort": "6"
+          },
+          {
+            "site": "zbahis",
+            "sort": "7"
           }
         ]
       },
