@@ -4,6 +4,18 @@
     "logo": "",
     "sites": [
       {
+        "url": "https://bit.ly/elisaxzbahis",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "zbahis",
+        "sort": null,
+        "color": "#48effa",
+        "miktar": "₺777",
+        "promo_code": "ELISA777",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/elisabankobet",
         "desc": [
           "777TL Nakit - 500TL Freespin"
@@ -74,18 +86,6 @@
         "miktar": "₺100",
         "promo_code": null,
         "promo_code_yok": "VEYA 100 FREE BET",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/elisaxzbahis",
-        "desc": [
-          "ÜYE OL DENEME BONUSUNU AL!"
-        ],
-        "site": "zbahis",
-        "sort": null,
-        "color": "#48effa",
-        "miktar": "₺777",
-        "promo_code": "ELISA777",
         "slider_img": ""
       }
     ],
@@ -177,31 +177,31 @@
         "sort": "3",
         "sites": [
           {
-            "site": "bankobet",
+            "site": "zbahis",
             "sort": "1"
           },
           {
-            "site": "tarafbet",
+            "site": "bankobet",
             "sort": "2"
           },
           {
-            "site": "betkom",
+            "site": "tarafbet",
             "sort": "3"
           },
           {
-            "site": "mariobet",
+            "site": "betkom",
             "sort": "4"
           },
           {
-            "site": "bahiscom",
+            "site": "mariobet",
             "sort": "5"
           },
           {
-            "site": "galabet",
+            "site": "bahiscom",
             "sort": "6"
           },
           {
-            "site": "zbahis",
+            "site": "galabet",
             "sort": "7"
           }
         ]
