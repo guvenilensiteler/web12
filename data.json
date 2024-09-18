@@ -88,6 +88,19 @@
         "promo_code": null,
         "promo_code_yok": "VEYA 100 FREE BET",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/3MRMht3",
+        "desc": [
+          "ÜYE OL 500₺ DENEME BONUSU AL"
+        ],
+        "site": "grandpashabet",
+        "sort": null,
+        "color": "#efb521",
+        "miktar": "₺500",
+        "promo_code": null,
+        "promo_code_yok": "%300 hoş geldin bonusu",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -204,6 +217,10 @@
           {
             "site": "galabet",
             "sort": "7"
+          },
+          {
+            "site": "grandpashabet",
+            "sort": "8"
           }
         ]
       },
