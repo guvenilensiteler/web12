@@ -113,6 +113,19 @@
         "promo_code": null,
         "promo_code_yok": "%300 hoş geldin bonusu",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/elisaxbayspin",
+        "desc": [
+          "KAYIT OL 555TL DENEME BONUSU AL"
+        ],
+        "site": "bayspin",
+        "sort": null,
+        "color": "#35f02b",
+        "miktar": "₺555",
+        "promo_code": null,
+        "promo_code_yok": "%35 KAYIP BONUSU",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -237,6 +250,10 @@
           {
             "site": "grandpashabet",
             "sort": "8"
+          },
+          {
+            "site": "bayspin",
+            "sort": "9"
           }
         ]
       },
