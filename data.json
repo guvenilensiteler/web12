@@ -17,18 +17,6 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/elisaxbetewin",
-        "desc": [
-          "999TL KAYIT BONUSU"
-        ],
-        "site": "betewin",
-        "sort": null,
-        "color": "#ff8d14",
-        "miktar": "₺999",
-        "promo_code_yok": "KAYIT OL 999TL BONUS AL",
-        "slider_img": ""
-      },
-      {
         "url": "https://bit.ly/elisabankobet",
         "desc": [
           "1.111 TL Nakit - 111 TL Freespin"
@@ -126,6 +114,18 @@
         "promo_code": null,
         "promo_code_yok": "%35 KAYIP BONUSU",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/elisaxbetewin",
+        "desc": [
+          "999TL KAYIT BONUSU"
+        ],
+        "site": "betewin",
+        "sort": null,
+        "color": "#ff8d14",
+        "miktar": "₺999",
+        "promo_code_yok": "KAYIT OL 999TL BONUS AL",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -217,10 +217,6 @@
         "sites": [
           {
             "site": "zbahis",
-            "sort": "0"
-          },
-          {
-            "site": "betewin",
             "sort": "1"
           },
           {
@@ -254,6 +250,10 @@
           {
             "site": "bayspin",
             "sort": "9"
+          },
+          {
+            "site": "betewin",
+            "sort": "10"
           }
         ]
       },
