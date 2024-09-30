@@ -233,43 +233,43 @@
             "sort": "1"
           },
           {
-            "site": "bankobet",
+            "site": "fixbet",
             "sort": "2"
           },
           {
-            "site": "tarafbet",
+            "site": "bankobet",
             "sort": "3"
           },
           {
-            "site": "betkom",
+            "site": "tarafbet",
             "sort": "4"
           },
           {
-            "site": "mariobet",
+            "site": "betkom",
             "sort": "5"
           },
           {
-            "site": "bahiscom",
+            "site": "mariobet",
             "sort": "6"
           },
           {
-            "site": "galabet",
+            "site": "bahiscom",
             "sort": "7"
           },
           {
-            "site": "grandpashabet",
+            "site": "galabet",
             "sort": "8"
           },
           {
-            "site": "bayspin",
+            "site": "grandpashabet",
             "sort": "9"
           },
           {
-            "site": "betewin",
+            "site": "bayspin",
             "sort": "10"
           },
           {
-            "site": "fixbet",
+            "site": "betewin",
             "sort": "11"
           }
         ]
