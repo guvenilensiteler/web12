@@ -17,6 +17,19 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/elisaxfix",
+        "desc": [
+          "5 DAKİKADA ÇEKİM LİMİTSİZ KAZANÇ"
+        ],
+        "site": "fixbet",
+        "sort": null,
+        "color": "#adf01f",
+        "miktar": "₺555",
+        "promo_code": null,
+        "promo_code_yok": "ÜYE OL BONUSUNU AL",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/elisabankobet",
         "desc": [
           "1.111 TL Nakit - 111 TL Freespin"
@@ -128,16 +141,15 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/elisaxfix",
+        "url": "https://bit.ly/elisaxmerit",
         "desc": [
-          "5 DAKİKADA ÇEKİM LİMİTSİZ KAZANÇ"
+          "100 FS DENEME BONUSU - %30 KAYIP BONUSU"
         ],
-        "site": "fixbet",
+        "site": "meritbet",
         "sort": null,
-        "color": "#adf01f",
-        "miktar": "₺555",
-        "promo_code": null,
-        "promo_code_yok": "ÜYE OL BONUSUNU AL",
+        "color": "#b09061",
+        "miktar": "₺100",
+        "promo_code_yok": "GÜNLÜK 1.999.999 TL ÇEKİM",
         "slider_img": ""
       }
     ],
@@ -271,6 +283,10 @@
           {
             "site": "betewin",
             "sort": "11"
+          },
+          {
+            "site": "meritbet",
+            "sort": "12"
           }
         ]
       },
