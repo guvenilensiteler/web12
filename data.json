@@ -30,30 +30,6 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/elisaxbetpublic",
-        "desc": [
-          "500TL KAYIT BONUSU"
-        ],
-        "site": "betpublic",
-        "sort": null,
-        "color": "#99284e",
-        "miktar": "₺500",
-        "promo_code_yok": "KAYIT OL BONUSU AL",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/elisaxsportoto",
-        "desc": [
-          "400TL KAYIT BONUSU"
-        ],
-        "site": "supertotobet",
-        "sort": null,
-        "color": "#c82635",
-        "miktar": "₺400",
-        "promo_code_yok": "KAYIT OL BONUSU AL",
-        "slider_img": ""
-      },
-      {
         "url": "https://bit.ly/elisagala",
         "desc": [
           "100 FREE SPIN"
@@ -238,40 +214,32 @@
             "sort": "2"
           },
           {
-            "site": "betpublic",
+            "site": "galabet",
             "sort": "3"
           },
           {
-            "site": "supertotobet",
+            "site": "grandpashabet",
             "sort": "4"
           },
           {
-            "site": "galabet",
+            "site": "bayspin",
             "sort": "5"
           },
           {
-            "site": "grandpashabet",
+            "site": "meritbet",
             "sort": "6"
           },
           {
-            "site": "bayspin",
+            "site": "rokubet",
             "sort": "7"
           },
           {
-            "site": "meritbet",
+            "site": "starzbet",
             "sort": "8"
           },
           {
-            "site": "rokubet",
-            "sort": "9"
-          },
-          {
-            "site": "starzbet",
-            "sort": "10"
-          },
-          {
             "site": "vippark",
-            "sort": "11"
+            "sort": "9"
           }
         ]
       },
