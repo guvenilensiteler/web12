@@ -17,6 +17,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/elisaxkral",
+        "desc": [
+          "2.000₺ HOŞGELDİN BONUSU"
+        ],
+        "site": "kralbet",
+        "sort": null,
+        "color": "#f9cd47",
+        "miktar": "GİRİŞ YAP",
+        "promo_code_yok": "",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/elisaxfix",
         "desc": [
           "5 DAKİKADA ÇEKİM LİMİTSİZ KAZANÇ"
@@ -53,19 +65,6 @@
         "miktar": "₺500",
         "promo_code": null,
         "promo_code_yok": "%300 hoş geldin bonusu",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/elisaxbayspin",
-        "desc": [
-          "KAYIT OL 555TL DENEME BONUSU AL"
-        ],
-        "site": "bayspin",
-        "sort": null,
-        "color": "#35f02b",
-        "miktar": "₺555",
-        "promo_code": null,
-        "promo_code_yok": "%35 KAYIP BONUSU",
         "slider_img": ""
       },
       {
@@ -210,19 +209,19 @@
             "sort": "1"
           },
           {
-            "site": "fixbet",
+            "site": "kralbet",
             "sort": "2"
           },
           {
-            "site": "galabet",
+            "site": "fixbet",
             "sort": "3"
           },
           {
-            "site": "grandpashabet",
+            "site": "galabet",
             "sort": "4"
           },
           {
-            "site": "bayspin",
+            "site": "grandpashabet",
             "sort": "5"
           },
           {
