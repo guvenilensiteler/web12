@@ -115,6 +115,30 @@
         "miktar": "₺100",
         "promo_code_yok": "VEYA 100 FREE BET",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/elisaxtipo",
+        "desc": [
+          "750TL VEYA 750 FREE SPIN"
+        ],
+        "site": "tipobet",
+        "sort": null,
+        "color": "#0f853d",
+        "miktar": "₺750",
+        "promo_code_yok": "DENEME BONUSU'MUZ MEVCUTTUR",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/elisaxsaha",
+        "desc": [
+          "500 TL + 250 TL KAYIT BONUSU"
+        ],
+        "site": "sahabet",
+        "sort": null,
+        "color": "#49b176",
+        "miktar": "₺750",
+        "promo_code_yok": "KAYIT OL 750TL BONUSU AL",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -239,6 +263,14 @@
           {
             "site": "vippark",
             "sort": "9"
+          },
+          {
+            "site": "tipobet",
+            "sort": "10"
+          },
+          {
+            "site": "sahabet",
+            "sort": "11"
           }
         ]
       },
