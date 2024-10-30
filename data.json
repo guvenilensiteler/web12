@@ -17,18 +17,6 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/elisaxkral",
-        "desc": [
-          "2.000₺ HOŞGELDİN BONUSU"
-        ],
-        "site": "kralbet",
-        "sort": null,
-        "color": "#ffc618",
-        "miktar": "GİRİŞ YAP",
-        "promo_code_yok": "",
-        "slider_img": ""
-      },
-      {
         "url": "https://bit.ly/elisaxfix",
         "desc": [
           "5 DAKİKADA ÇEKİM LİMİTSİZ KAZANÇ"
@@ -52,6 +40,30 @@
         "miktar": "₺100",
         "promo_code": null,
         "promo_code_yok": "VEYA 100 FREE BET",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/elisaxtipo",
+        "desc": [
+          "750TL VEYA 750 FREE SPIN"
+        ],
+        "site": "tipobet",
+        "sort": null,
+        "color": "#0f853d",
+        "miktar": "₺750",
+        "promo_code_yok": "DENEME BONUSU'MUZ MEVCUTTUR",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/elisaxsaha",
+        "desc": [
+          "500 TL + 250 TL KAYIT BONUSU"
+        ],
+        "site": "sahabet",
+        "sort": null,
+        "color": "#49b176",
+        "miktar": "₺750",
+        "promo_code_yok": "KAYIT OL 750TL BONUSU AL",
         "slider_img": ""
       },
       {
@@ -117,27 +129,27 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/elisaxtipo",
+        "url": "https://bit.ly/4fqOnwl",
         "desc": [
-          "750TL VEYA 750 FREE SPIN"
+          "ÜYE OL 200₺ DENEME BONUSU AL"
         ],
-        "site": "tipobet",
+        "site": "istanbulbahis",
         "sort": null,
-        "color": "#0f853d",
-        "miktar": "₺750",
-        "promo_code_yok": "DENEME BONUSU'MUZ MEVCUTTUR",
+        "color": "#319aba",
+        "miktar": "₺200",
+        "promo_code_yok": "",
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/elisaxsaha",
+        "url": "https://bit.ly/elisaxkral",
         "desc": [
-          "500 TL + 250 TL KAYIT BONUSU"
+          "2.000₺ HOŞGELDİN BONUSU"
         ],
-        "site": "sahabet",
+        "site": "kralbet",
         "sort": null,
-        "color": "#49b176",
-        "miktar": "₺750",
-        "promo_code_yok": "KAYIT OL 750TL BONUSU AL",
+        "color": "#ffc618",
+        "miktar": "GİRİŞ YAP",
+        "promo_code_yok": "",
         "slider_img": ""
       }
     ],
@@ -233,44 +245,48 @@
             "sort": "1"
           },
           {
-            "site": "kralbet",
+            "site": "fixbet",
             "sort": "2"
           },
           {
-            "site": "fixbet",
+            "site": "galabet",
             "sort": "3"
           },
           {
-            "site": "galabet",
+            "site": "tipobet",
             "sort": "4"
           },
           {
-            "site": "grandpashabet",
+            "site": "sahabet",
             "sort": "5"
           },
           {
-            "site": "meritbet",
+            "site": "grandpashabet",
             "sort": "6"
           },
           {
-            "site": "rokubet",
+            "site": "meritbet",
             "sort": "7"
           },
           {
-            "site": "starzbet",
+            "site": "rokubet",
             "sort": "8"
           },
           {
-            "site": "vippark",
+            "site": "starzbet",
             "sort": "9"
           },
           {
-            "site": "tipobet",
+            "site": "vippark",
             "sort": "10"
           },
           {
-            "site": "sahabet",
+            "site": "istanbulbahis",
             "sort": "11"
+          },
+          {
+            "site": "kralbet",
+            "sort": "12"
           }
         ]
       },
