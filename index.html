@@ -489,6 +489,17 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
+    function isMobile() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        if (/android/i.test(userAgent)) {
+            return true;
+        }
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return true;
+        }
+        return false;
+    }
+    
     var app = new Vue({
         el: '#app-v-page',
         mounted(){
@@ -513,7 +524,7 @@
         },
         created(){
             this.loading = true;
-            axios.get('https://elisahanimsiteler.com/data.json')
+            axios.get('https://elisahanimsiteler.com/data'+(isMobile()?'-mobile':'')+'.json')
                 .then((response) => {
                     this.client = response.data.html
                     this.king = _.find(this.client.categories, ['id', 1710467155101]);
@@ -624,16 +635,7 @@
             },50)
         }
         */
-        function isMobile() {
-            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-            if (/android/i.test(userAgent)) {
-                return true;
-            }
-            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                return true;
-            }
-            return false;
-        }
+
         if (isMobile()) {
             is_element_load = setInterval(function(){
                 let e = document.querySelector('header');
