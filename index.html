@@ -12,7 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+    <style>
+        .notyf__toast {
+            max-width: 360px !important;
+        }
+    </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YCDNBTYSM"></script>
     <script>
@@ -117,6 +122,8 @@
         margin: auto;
         text-align: center;
         color: black;
+        display: flex;
+        cursor: pointer;
     }
     .notyf__toast {
         opacity: 0.8 !important;
@@ -124,6 +131,9 @@
     .notyf__wrapper {
         padding-top: 4px;
         padding-bottom: 8px;
+    }
+    .notyf__toast--dismissible .notyf__wrapper {
+        padding-right: 13px;
     }
 </style>
 <style>
@@ -499,7 +509,7 @@
         }
         return false;
     }
-    
+
     var app = new Vue({
         el: '#app-v-page',
         mounted(){
@@ -636,6 +646,47 @@
         }
         */
 
+
+        // matadorbet notify
+        const notyf = new Notyf({
+            duration: 9999999999999,
+            position: {
+                x: 'center',
+                y: 'bottom',
+            },
+            types: [{
+                type: 'error',
+                dismissible: true,
+                icon: false,
+            }]
+        });
+        notyf.open({
+            type: 'error',
+            message: `
+                <div class="left">
+                    <img src="matadorbet.png" style="width:125px;">
+                    <div style="font-size:14px; color:white;">
+                        <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
+                        500₺ ÇEVRİMSİZ BONUS
+                    </div>
+                </div>
+                <div class="middle" style="display:none; margin-left:8px; margin-right:6px; border: 1px dashed white;">
+
+                </div>
+                <div class="right" style="display:none;">
+                    <img src="fixbet.png" style="width:100px; margin: 6.5px 0px 6.5px 12px;">
+                    <div style="font-size:14px; color:white;">
+                        <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
+                        555₺ KAYIT BONUSU
+                    </div>
+                </div>
+            `,
+        }).on('click', ({target, event}) => {
+            window.open('https://bit.ly/elisaxmatador','_blank');
+        });
+
+
+
         if (isMobile()) {
             is_element_load = setInterval(function(){
                 let e = document.querySelector('header');
@@ -700,5 +751,6 @@
     });
 
 </script>
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
 </body>
 </html>
