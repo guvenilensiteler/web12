@@ -30,6 +30,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/elisaxmatador",
+        "desc": [
+          "CANLI DESTEĞE BAĞLAN BONUSUNU AL!"
+        ],
+        "site": "matadorbet",
+        "sort": null,
+        "color": "#fb0009",
+        "miktar": "₺500",
+        "promo_code2": "%200 HOŞ GELDİN BONUSU",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/elisagala",
         "desc": [
           "100 FREE SPIN"
@@ -249,44 +261,48 @@
             "sort": "2"
           },
           {
-            "site": "galabet",
+            "site": "matadorbet",
             "sort": "3"
           },
           {
-            "site": "tipobet",
+            "site": "galabet",
             "sort": "4"
           },
           {
-            "site": "sahabet",
+            "site": "tipobet",
             "sort": "5"
           },
           {
-            "site": "grandpashabet",
+            "site": "sahabet",
             "sort": "6"
           },
           {
-            "site": "meritbet",
+            "site": "grandpashabet",
             "sort": "7"
           },
           {
-            "site": "rokubet",
+            "site": "meritbet",
             "sort": "8"
           },
           {
-            "site": "starzbet",
+            "site": "rokubet",
             "sort": "9"
           },
           {
-            "site": "vippark",
+            "site": "starzbet",
             "sort": "10"
           },
           {
-            "site": "istanbulbahis",
+            "site": "vippark",
             "sort": "11"
           },
           {
-            "site": "kralbet",
+            "site": "istanbulbahis",
             "sort": "12"
+          },
+          {
+            "site": "kralbet",
+            "sort": "13"
           }
         ]
       },

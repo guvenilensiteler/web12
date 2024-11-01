@@ -682,7 +682,14 @@
                 </div>
             `,
         }).on('click', ({target, event}) => {
-            window.open('https://bit.ly/elisaxmatador','_blank');
+            hedef = event.target.getAttribute('class');
+            hedef2 = event.target.closest('div.left,div.right').getAttribute('class');
+            if ((hedef && hedef.includes('left')) || (hedef2 && hedef2.includes('left'))) {
+                click_site = 'matadorbet';
+            } else if ((hedef && hedef.includes('right')) || (hedef2 && hedef2.includes('right'))) {
+                click_site = 'fixbet';
+            }
+            window.open(document.querySelector('[site="'+click_site+'"]').getAttribute('href'),'_blank');
         });
 
 
