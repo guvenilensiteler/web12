@@ -175,6 +175,18 @@
         "miktar": "GİRİŞ YAP",
         "promo_code_yok": "",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/elisaxnyc",
+        "desc": [
+          "YÜKSEK RTP ORANLARIYLA"
+        ],
+        "site": "nycbahis",
+        "sort": null,
+        "color": "#e80985",
+        "miktar": "GİRİŞ YAP",
+        "promo_code_yok": "AMERİKA'DAN SONRA TÜRKİYE'DE!",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -281,40 +293,43 @@
             "sort": "4"
           },
           {
-            "site": "tipobet",
+            "site": "rokubet",
             "sort": "5"
           },
           {
-            "site": "sahabet",
+            "site": "nycbahis",
             "sort": "6"
           },
           {
-            "site": "grandpashabet",
-            "sort": "7"
-          },
-
-          {
-            "site": "rokubet",
-            "sort": "9"
-          },
-          {
             "site": "onwin",
-            "sort": "10"
+            "sort": "7"
           },
           {
             "site": "starzbet",
-            "sort": "11"
-          },
-          {
-            "site": "vippark",
-            "sort": "12"
+            "sort": "8"
           },
           {
             "site": "istanbulbahis",
-            "sort": "13"
+            "sort": "9"
+          },
+          {
+            "site": "grandpashabet",
+            "sort": "10"
+          },
+          {
+            "site": "vippark",
+            "sort": "11"
           },
           {
             "site": "kralbet",
+            "sort": "12"
+          },
+          {
+            "site": "tipobet",
+            "sort": "13"
+          },
+          {
+            "site": "sahabet",
             "sort": "14"
           }
         ]
