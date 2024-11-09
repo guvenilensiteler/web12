@@ -187,6 +187,18 @@
         "miktar": "GİRİŞ YAP",
         "promo_code_yok": "AMERİKA'DAN SONRA TÜRKİYE'DE!",
         "slider_img": ""
+      },
+      {
+        "url": "https://stake1022.com/?c=stake14dolar",
+        "desc": [
+          "DÜNYANIN EN GÜVENİLİR SİTESİ"
+        ],
+        "site": "stake",
+        "sort": null,
+        "color": "#1475e1",
+        "miktar": "$14",
+        "promo_code": null,
+        "slider_img": ""
       }
     ],
     "social": {
@@ -331,6 +343,10 @@
           {
             "site": "kralbet",
             "sort": "14"
+          },
+          {
+            "site": "stake",
+            "sort": "15"
           }
         ]
       },
