@@ -17,6 +17,30 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/elisaxtipo",
+        "desc": [
+          "750TL VEYA 750 FREE SPIN"
+        ],
+        "site": "tipobet",
+        "sort": null,
+        "color": "#0f853d",
+        "miktar": "₺750",
+        "promo_code_yok": "DENEME BONUSU'MUZ MEVCUTTUR",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/elisaxsaha",
+        "desc": [
+          "500 TL + 250 TL KAYIT BONUSU"
+        ],
+        "site": "sahabet",
+        "sort": null,
+        "color": "#49b176",
+        "miktar": "₺750",
+        "promo_code_yok": "KAYIT OL 750TL BONUSU AL",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/elisaxfix",
         "desc": [
           "5 DAKİKADA ÇEKİM LİMİTSİZ KAZANÇ"
@@ -52,30 +76,6 @@
         "miktar": "₺100",
         "promo_code": null,
         "promo_code_yok": "VEYA 100 FREE BET",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/elisaxtipo",
-        "desc": [
-          "750TL VEYA 750 FREE SPIN"
-        ],
-        "site": "tipobet",
-        "sort": null,
-        "color": "#0f853d",
-        "miktar": "₺750",
-        "promo_code_yok": "DENEME BONUSU'MUZ MEVCUTTUR",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/elisaxsaha",
-        "desc": [
-          "500 TL + 250 TL KAYIT BONUSU"
-        ],
-        "site": "sahabet",
-        "sort": null,
-        "color": "#49b176",
-        "miktar": "₺750",
-        "promo_code_yok": "KAYIT OL 750TL BONUSU AL",
         "slider_img": ""
       },
       {
@@ -293,55 +293,55 @@
             "sort": "1"
           },
           {
-            "site": "fixbet",
+            "site": "tipobet",
             "sort": "2"
           },
           {
-            "site": "matadorbet",
+            "site": "sahabet",
             "sort": "3"
           },
           {
-            "site": "galabet",
+            "site": "fixbet",
             "sort": "4"
           },
           {
-            "site": "rokubet",
+            "site": "matadorbet",
             "sort": "5"
           },
           {
-            "site": "nycbahis",
+            "site": "galabet",
             "sort": "6"
           },
           {
-            "site": "onwin",
+            "site": "rokubet",
             "sort": "7"
           },
           {
-            "site": "starzbet",
+            "site": "nycbahis",
             "sort": "8"
           },
           {
-            "site": "istanbulbahis",
+            "site": "onwin",
             "sort": "9"
           },
           {
-            "site": "grandpashabet",
+            "site": "starzbet",
             "sort": "10"
           },
           {
-            "site": "vippark",
+            "site": "istanbulbahis",
             "sort": "11"
           },
           {
-            "site": "kralbet",
+            "site": "grandpashabet",
             "sort": "12"
           },
           {
-            "site": "tipobet",
+            "site": "vippark",
             "sort": "13"
           },
           {
-            "site": "sahabet",
+            "site": "kralbet",
             "sort": "14"
           },
           {
