@@ -199,6 +199,18 @@
         "miktar": "$14",
         "promo_code": null,
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexdark",
+        "desc": [
+          "BONUSU AL - 2.500₺ yap 500 ÇEK"
+        ],
+        "site": "darkbet",
+        "sort": null,
+        "color": "#ffc000",
+        "miktar": "₺250",
+        "promo_code": "DARKBET250",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -337,16 +349,20 @@
             "sort": "12"
           },
           {
-            "site": "vippark",
+            "site": "darkbet",
             "sort": "13"
           },
           {
-            "site": "kralbet",
+            "site": "vippark",
             "sort": "14"
           },
           {
-            "site": "stake",
+            "site": "kralbet",
             "sort": "15"
+          },
+          {
+            "site": "stake",
+            "sort": "16"
           }
         ]
       },
