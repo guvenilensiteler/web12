@@ -211,6 +211,18 @@
         "miktar": "₺250",
         "promo_code": "DARKBET250",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexforce",
+        "desc": [
+          "350₺ YENİ ÜYELİK BONUSU"
+        ],
+        "site": "betforce",
+        "sort": null,
+        "color": "#886cff",
+        "miktar": "₺350",
+        "promo_code_yok": "1500₺ YAP 350₺ ÇEK",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -353,16 +365,20 @@
             "sort": "13"
           },
           {
-            "site": "vippark",
+            "site": "betforce",
             "sort": "14"
           },
           {
-            "site": "kralbet",
+            "site": "vippark",
             "sort": "15"
           },
           {
-            "site": "stake",
+            "site": "kralbet",
             "sort": "16"
+          },
+          {
+            "site": "stake",
+            "sort": "17"
           }
         ]
       },
