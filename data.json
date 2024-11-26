@@ -106,14 +106,13 @@
       {
         "url": "https://bit.ly/elisaxroku",
         "desc": [
-          "GATES OF OLYMPUS 1000 OYUNUNDA GEÇERLİ"
+          "10M TL'YE KADAR ÇEKİM LİMİTİ!"
         ],
         "site": "rokubet",
         "sort": null,
         "color": "#e5a235",
         "miktar": "₺150",
-        "promo_code": "elisa150",
-        "promo_code_lowercase": true,
+        "promo_code_yok": "KAZANANLARIN DÜNYASINDA KATILMANIN TAM ZAMANI",
         "slider_img": ""
       },
       {
@@ -341,7 +340,7 @@
             "sort": "7"
           },
           {
-            "site": "nycbahis",
+            "site": "starzbet",
             "sort": "8"
           },
           {
@@ -349,7 +348,7 @@
             "sort": "9"
           },
           {
-            "site": "starzbet",
+            "site": "nycbahis",
             "sort": "10"
           },
           {
