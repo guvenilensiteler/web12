@@ -234,6 +234,18 @@
         "miktar": "KAYIT OL",
         "promo_code_yok": "TOPLAM 1.000.000 TL GÜNLÜK ÇEKİM",
         "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/MeXHCTHj",
+        "desc": [
+          "800 TL YATIRIM ŞARTSIZ DENEME BONUSU"
+        ],
+        "site": "otobet",
+        "sort": null,
+        "color": "#fba200",
+        "miktar": "₺800",
+        "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -368,32 +380,36 @@
             "sort": "11"
           },
           {
-            "site": "grandpashabet",
+            "site": "otobet",
             "sort": "12"
           },
           {
-            "site": "darkbet",
+            "site": "grandpashabet",
             "sort": "13"
           },
           {
-            "site": "betforce",
+            "site": "darkbet",
             "sort": "14"
           },
           {
-            "site": "vippark",
+            "site": "betforce",
             "sort": "15"
           },
           {
-            "site": "kralbet",
+            "site": "vippark",
             "sort": "16"
           },
           {
-            "site": "marsbahis",
+            "site": "kralbet",
             "sort": "17"
           },
           {
-            "site": "stake",
+            "site": "marsbahis",
             "sort": "18"
+          },
+          {
+            "site": "stake",
+            "sort": "19"
           }
         ]
       },
