@@ -117,12 +117,14 @@
         background: linear-gradient(45deg, rgb(239, 253, 33), rgb(255, 0, 0)) !important;
         */
         background: linear-gradient(45deg, rgb(0 0 0), rgb(0 0 0)) !important;
+        border-radius: 0;
+        height: 500px;
     }
     .notyf__message {
         margin: auto;
         text-align: center;
         color: black;
-        display: flex;
+        display: block;
         cursor: pointer;
     }
     .notyf__toast {
@@ -134,6 +136,9 @@
     }
     .notyf__toast--dismissible .notyf__wrapper {
         padding-right: 13px;
+    }
+    .notyf__dismiss-btn {
+        opacity: 1;
     }
 </style>
 <style>
@@ -663,33 +668,45 @@
         notyf.open({
             type: 'error',
             message: `
-                <div class="left">
-                    <img src="matadorbet.png" style="width:125px;">
-                    <div style="font-size:14px; color:white;">
-                        <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
-                        500₺ DENEME BONUSU
-                        <br>
-                        %200 HOŞGELDİN BONUSU
+                    <div class="left">
+                        <img src="matadorbet.png" style="width:125px;">
+                        <div style="font-size:14px; color:white;">
+                            <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
+                            500₺ DENEME BONUSU
+                            <br>
+                            %200 HOŞGELDİN BONUSU
+                        </div>
                     </div>
-                </div>
-                <div class="middle" style="margin-left:8px; margin-right:6px; border: 1px dashed white;">
+                    <div class="middle" style="margin: 8px 0px; border: 1px dashed white;">
 
-                </div>
-                <div class="right">
-                    <img src="fixbet.png" style="width:100px; margin: 6.5px 0px 6.5px 12px;">
-                    <div style="font-size:14px; color:white;">
-                        <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
-                        555₺ KAYIT BONUSU
                     </div>
-                </div>
+                    <div class="right">
+                        <img src="fixbet.png" style="width:100px; margin: 6.5px 0px 6.5px 12px;">
+                        <div style="font-size:14px; color:white;">
+                            <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
+                            555₺ KAYIT BONUSU
+                        </div>
+                    </div>
+                    <div class="middle" style="margin: 8px 0px; border: 1px dashed white;">
+
+                    </div>
+                    <div class="new_bottom">
+                        <img src="otobet.png" style="width:100px; margin: 6.5px 0px 6.5px 12px;">
+                        <div style="font-size:14px; color:white;">
+                            <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
+                            800 TL YATIRIM ŞARTSIZ DENEME BONUSU
+                        </div>
+                    </div>
             `,
         }).on('click', ({target, event}) => {
             hedef = event.target.getAttribute('class');
-            hedef2 = event.target.closest('div.left,div.right').getAttribute('class');
+            hedef2 = event.target.closest('div.left,div.right,div.new_bottom').getAttribute('class');
             if ((hedef && hedef.includes('left')) || (hedef2 && hedef2.includes('left'))) {
                 click_site = 'matadorbet';
             } else if ((hedef && hedef.includes('right')) || (hedef2 && hedef2.includes('right'))) {
                 click_site = 'fixbet';
+            } else if ((hedef && hedef.includes('new_bottom')) || (hedef2 && hedef2.includes('new_bottom'))) {
+                click_site = 'otobet';
             }
             window.open(document.querySelector('[site="'+click_site+'"]').getAttribute('href'),'_blank');
         });
