@@ -118,27 +118,28 @@
         */
         background: linear-gradient(45deg, rgb(0 0 0), rgb(0 0 0)) !important;
         border-radius: 0;
-        height: 500px;
     }
     .notyf__message {
         margin: auto;
         text-align: center;
         color: black;
-        display: block;
+        display: flex;
         cursor: pointer;
     }
     .notyf__toast {
         opacity: 0.8 !important;
     }
     .notyf__wrapper {
-        padding-top: 4px;
+        padding-top: 6px;
         padding-bottom: 8px;
     }
     .notyf__toast--dismissible .notyf__wrapper {
         padding-right: 13px;
     }
-    .notyf__dismiss-btn {
-        opacity: 1;
+    @media only screen and (max-width: 480px) {
+        .notyf__dismiss {
+            width: 20px;
+        }
     }
 </style>
 <style>
@@ -669,43 +670,41 @@
             type: 'error',
             message: `
                     <div class="left">
-                        <img src="matadorbet.png" style="width:125px;">
+                        <img src="matadorbet.png" style="width:100px;">
                         <div style="font-size:14px; color:white;">
                             <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
                             500₺ DENEME BONUSU
-                            <br>
-                            %200 HOŞGELDİN BONUSU
                         </div>
                     </div>
-                    <div class="middle" style="margin: 8px 0px; border: 1px dashed white;">
+                    <div class="middle" style="margin-left:8px; margin-right:6px; border: 1px dashed white;">
 
                     </div>
                     <div class="right">
-                        <img src="fixbet.png" style="width:100px; margin: 6.5px 0px 6.5px 12px;">
+                        <img src="fixbet.png" style="width:75px; margin: 6.5px 9px 6.5px 11px;">
                         <div style="font-size:14px; color:white;">
                             <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
                             555₺ KAYIT BONUSU
                         </div>
                     </div>
-                    <div class="middle" style="margin: 8px 0px; border: 1px dashed white;">
+                    <div class="middle" style="margin-left:8px; margin-right:6px; border: 1px dashed white;">
 
                     </div>
-                    <div class="new_bottom">
-                        <img src="otobet.png" style="width:100px; margin: 6.5px 0px 6.5px 12px;">
+                    <div class="yeni_sag">
+                        <img src="otobet.png" style="width:75px; margin: 2px 0px 2px 6.5px;">
                         <div style="font-size:14px; color:white;">
                             <img src="click.webp" style="width:20px; vertical-align:sub; margin-right:3px;">
-                            800 TL YATIRIM ŞARTSIZ DENEME BONUSU
+                            800₺ DENEME BONUSU
                         </div>
                     </div>
             `,
         }).on('click', ({target, event}) => {
             hedef = event.target.getAttribute('class');
-            hedef2 = event.target.closest('div.left,div.right,div.new_bottom').getAttribute('class');
+            hedef2 = event.target.closest('div.left,div.right,div.yeni_sag').getAttribute('class');
             if ((hedef && hedef.includes('left')) || (hedef2 && hedef2.includes('left'))) {
                 click_site = 'matadorbet';
             } else if ((hedef && hedef.includes('right')) || (hedef2 && hedef2.includes('right'))) {
                 click_site = 'fixbet';
-            } else if ((hedef && hedef.includes('new_bottom')) || (hedef2 && hedef2.includes('new_bottom'))) {
+            } else if ((hedef && hedef.includes('yeni_sag')) || (hedef2 && hedef2.includes('yeni_sag'))) {
                 click_site = 'otobet';
             }
             window.open(document.querySelector('[site="'+click_site+'"]').getAttribute('href'),'_blank');
