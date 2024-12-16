@@ -246,6 +246,19 @@
         "miktar": "₺800",
         "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL",
         "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ogexhaho",
+        "desc": [
+          "999₺ KAYIT DENEME BONUSU"
+        ],
+        "site": "hahobet",
+        "sort": null,
+        "color": "#f8740e",
+        "miktar": "₺999",
+        "promo_code": null,
+        "promo_code_yok": "KAYIT OL 999₺ DENEME BONUSUNU AL",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -410,6 +423,10 @@
           {
             "site": "stake",
             "sort": "19"
+          },
+          {
+            "site": "hahobet",
+            "sort": "20"
           }
         ]
       },
