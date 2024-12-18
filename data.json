@@ -259,6 +259,19 @@
         "promo_code": null,
         "promo_code_yok": "KAYIT OL 999₺ DENEME BONUSUNU AL",
         "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/tutukuogel",
+        "desc": [
+          "77.777TL'YE KADAR YATIRIM BONUSU"
+        ],
+        "site": "tutkubet",
+        "sort": null,
+        "color": "#d5362d",
+        "miktar": "GİRİŞ YAP",
+        "promo_code": null,
+        "promo_code_yok": "%375 HOŞ GELDİN BONUSU",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -427,6 +440,10 @@
           {
             "site": "hahobet",
             "sort": "20"
+          },
+          {
+            "site": "tutkubet",
+            "sort": "21"
           }
         ]
       },
