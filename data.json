@@ -270,7 +270,7 @@
         "color": "#d5362d",
         "miktar": "GİRİŞ YAP",
         "promo_code": null,
-        "promo_code_yok": "%375 HOŞ GELDİN BONUSU",
+        "promo_code_yok": "%375 HOŞ GELDİN BONUSU - EVRAKSIZ LİMİTSİZ ÇEKİM",
         "slider_img": ""
       }
     ],
@@ -414,36 +414,25 @@
             "sort": "13"
           },
           {
-            "site": "darkbet",
+            "site": "tutkubet",
             "sort": "14"
           },
-          {
-            "site": "betforce",
-            "sort": "15"
-          },
+          
           {
             "site": "vippark",
-            "sort": "16"
-          },
-          {
-            "site": "kralbet",
             "sort": "17"
           },
           {
-            "site": "marsbahis",
+            "site": "kralbet",
             "sort": "18"
           },
           {
-            "site": "stake",
+            "site": "marsbahis",
             "sort": "19"
           },
           {
-            "site": "hahobet",
+            "site": "stake",
             "sort": "20"
-          },
-          {
-            "site": "tutkubet",
-            "sort": "21"
           }
         ]
       },
