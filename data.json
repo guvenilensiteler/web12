@@ -272,6 +272,19 @@
         "promo_code": null,
         "promo_code_yok": "%375 HOŞ GELDİN BONUSU - EVRAKSIZ LİMİTSİZ ÇEKİM",
         "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/PusulaElisa",
+        "desc": [
+          "200₺ DENEME BONUSU"
+        ],
+        "site": "pusulabet",
+        "sort": null,
+        "color": "#ffac2c",
+        "miktar": "₺200",
+        "promo_code": null,
+        "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -362,7 +375,7 @@
         "sort": "3",
         "sites": [
           {
-            "site": "zbahis",
+            "site": "pusulabet",
             "sort": "1"
           },
           {
@@ -381,7 +394,10 @@
             "site": "matadorbet",
             "sort": "5"
           },
-
+          {
+            "site": "zbahis",
+            "sort": "6"
+          },
           {
             "site": "rokubet",
             "sort": "7"
@@ -414,7 +430,7 @@
             "site": "tutkubet",
             "sort": "14"
           },
-          
+
           {
             "site": "kralbet",
             "sort": "18"
