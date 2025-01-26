@@ -298,6 +298,19 @@
         "promo_code": null,
         "promo_code_yok": "TÜRKİYE’DE BİR İLK: GÜNLÜK KOMİSYON İADESİ!",
         "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/elisahanimdama",
+        "desc": [
+          "ÇEVRİMSİZ 250TL DENEME BONUSU!"
+        ],
+        "site": "damabet",
+        "sort": null,
+        "color": "#ffc300",
+        "miktar": "₺250",
+        "promo_code": null,
+        "promo_code_yok": "HEMEN ÜYE OL 250₺ BONUS AL!",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -433,12 +446,16 @@
             "sort": "13"
           },
           {
-            "site": "tutkubet",
+            "site": "damabet",
             "sort": "14"
           },
           {
-            "site": "hahobet",
+            "site": "tutkubet",
             "sort": "15"
+          },
+          {
+            "site": "hahobet",
+            "sort": "16"
           },
 
           {
